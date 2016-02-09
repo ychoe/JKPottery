@@ -1,0 +1,25 @@
+body{
+  color:#1a334c;
+  font-family:Oxygen,Helvetica,sans-serif;
+  font-size:14px;
+  line-height:1.8
+}
+
+.button {
+    color: #336699;
+    background-color: #fff;
+    border: 2px solid #336699;
+    padding: 12px 18px;
+    border-radius: 0;
+    display: inline-block;
+    text-decoration:none
+}
+
+.button:hover {
+  color:#fff;
+  background-color:#336699
+}
+
+h2 {
+  color: #336699;
+}
