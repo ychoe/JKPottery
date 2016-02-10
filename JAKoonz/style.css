@@ -1,0 +1,64 @@
+body {
+	font-family: sans-serif;
+	overflow: auto;
+}
+
+h1,h2,h3,nav {
+	display: inline;
+}
+
+nav {
+	left: 0px;
+}	
+
+a {
+	text-decoration: none;
+	color: black;
+	padding-right: 3px;	
+	padding-left: 3px;
+}	
+
+body>div {
+	display: block;
+	width: 70%;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+#navigation {
+	display: inline;
+	position: absolute;
+	right: 0px;
+	bottom:	0px;
+}
+
+#ContainHeader {
+	position: relative;
+}
+
+#FixedHeader, #FixedFooter {
+	position: fixed;
+	background: white;
+	z-index: 1;
+}
+
+#FixedHeader {
+	height: 70px;
+	top: 0px;
+	
+	border-bottom: solid black 1px;
+}
+
+#FixedFooter {
+	height: 20px;
+	bottom: 0px;
+	border-top: solid black 1px;
+}
+
+#content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
